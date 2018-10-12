@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="ExampleUWP_FileSavePicker.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ExampleUWP_FileSavePicker"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <StackPanel>
+        <TextBox HorizontalAlignment="Center" Header="Name" Name="txt_name"  Width="300"></TextBox>
+        <TextBlock></TextBlock>
+        <TextBox HorizontalAlignment="Center" Header="Email" Name="txt_email" Width="300"></TextBox>
+        <TextBlock></TextBlock>
+        <TextBox HorizontalAlignment="Center" Header="Phone" Name="txt_phone" Width="300"></TextBox>
+        <TextBlock></TextBlock>
+        <Button HorizontalAlignment="Center" Content="Save" Name="btnSave" Width="200" Click="btnSave_Click"></Button>
+        <TextBlock></TextBlock>
+        <Button HorizontalAlignment="Center" Content="Load" Name="btnLoad" Width="200" Click="btnLoad_Click"></Button>
+    </StackPanel>
+</Page>
